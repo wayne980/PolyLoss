@@ -37,7 +37,11 @@ For Flickr30K:
 ```bash
 python train.py --data_path "$DATA_PATH" --data_name coco_precomp --vocab_path "$VOCAB_PATH" --logger_name runs/coco_scan/log --model_name runs/coco_scan/log --max_violation --bi_gru  --agg_func=Mean --cross_attn=i2t --lambda_softmax=4
 ```
+
+
 1.You can change the parameters in the model.py (lines 337-401) to train on other datasets.
+
+
 2.You can also apply our PolyLoss function (in polyloss.py) to other cross-modal retrieval methods.
 
 ## Pretrained model
