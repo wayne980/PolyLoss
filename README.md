@@ -28,3 +28,15 @@ Data files can be found in SCAN (We use the same dataset split as theirs):
 ```bash
 wget https://scanproject.blob.core.windows.net/scan-data/data_no_feature.zip
 ```
+## Reference
+
+If you found this code useful, please cite the following paper:
+```
+@inproceedings{wei2020universal,
+  title={Universal Weighting Metric Learning for Cross-Modal Matching},
+  author={Wei, Jiwei and Xu, Xing and Yang, Yang and Ji, Yanli and Wang, Zheng and Shen, Heng Tao},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={13005--13014},
+  year={2020}
+}
+'''
