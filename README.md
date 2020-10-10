@@ -42,7 +42,7 @@ python train.py --data_path "$DATA_PATH" --data_name coco_precomp --vocab_path "
 1.You can change the parameters in the model.py (lines 337-401) to train on other datasets.
 
 
-2.You can also apply our PolyLoss function (in polyloss.py) to other cross-modal retrieval methods.
+2.You can also apply our PolyLoss function (polyloss.py) to other cross-modal retrieval methods.
 
 ## Pretrained model
 If you don't want to train from scratch, you can download the pretrained model (Flickr30K) from DropBox [here](https://www.dropbox.com/s/sbnhvoord6blgyv/model_best.pth.tar?dl=0).
