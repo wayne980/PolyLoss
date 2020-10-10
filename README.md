@@ -28,6 +28,17 @@ Data files can be found in SCAN (We use the same dataset split as theirs):
 ```bash
 wget https://scanproject.blob.core.windows.net/scan-data/data_no_feature.zip
 ```
+
+## Training
+Arguments used to train Flickr30K models and MSCOCO models are similar with those of SCAN:
+
+For Flickr30K:
+```bash
+python train.py --data_path "$DATA_PATH" --data_name coco_precomp --vocab_path "$VOCAB_PATH" --logger_name runs/coco_scan/log --model_name runs/coco_scan/log --max_violation --bi_gru  --agg_func=Mean --cross_attn=i2t --lambda_softmax=4
+```
+
+
+
 ## Reference
 
 If you found this code useful, please cite the following paper:
