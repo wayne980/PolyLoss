@@ -38,7 +38,7 @@ For Flickr30K:
 python train.py --data_path "$DATA_PATH" --data_name coco_precomp --vocab_path "$VOCAB_PATH" --logger_name runs/coco_scan/log --model_name runs/coco_scan/log --max_violation --bi_gru  --agg_func=Mean --cross_attn=i2t --lambda_softmax=4
 ```
 ## Pretrained model
-If you don't want to train from scratch, you can download the pretrained model (Flickr30K) from Google Driver [here](https://drive.google.com/file/d/1DTYFioI1BRIQZssMRpW6lQpTVHeQV3vA/view?usp=sharing).
+If you don't want to train from scratch, you can download the pretrained model (Flickr30K) from Drop Box [here](https://www.dropbox.com/s/sbnhvoord6blgyv/model_best.pth.tar?dl=0).
 ```
 rsum: 460.7
 Average i2t Recall: 84.9
