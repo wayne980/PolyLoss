@@ -3,6 +3,20 @@ This repository contains PyTorch implementation of our paper [Universal Weightin
 The paper is accepted by CVPR2020.
 
 
+## Requirements and Installation
+We recommended the following dependencies.
+
+* Python 3.7
+* [PyTorch](http://pytorch.org/) 1.1
+* [NumPy](http://www.numpy.org/) 
+
+* Punkt Sentence Tokenizer:
+```python
+import nltk
+nltk.download()
+> d punkt
+```
+
 ## Data preparation
 
 Download the dataset files. We use splits produced by [Andrej Karpathy](http://cs.stanford.edu/people/karpathy/deepimagesent/). The raw images can be downloaded from from their original sources [here](http://nlp.cs.illinois.edu/HockenmaierGroup/Framing_Image_Description/KCCA.html), [here](http://shannon.cs.illinois.edu/DenotationGraph/) and [here](http://mscoco.org/).
