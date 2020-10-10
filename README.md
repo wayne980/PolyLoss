@@ -17,6 +17,7 @@ nltk.download()
 > d punkt
 ```
 
+
 ## Data preparation
 
 Download the dataset files. We use splits produced by [Andrej Karpathy](http://cs.stanford.edu/people/karpathy/deepimagesent/). The raw images can be downloaded from from their original sources [here](http://nlp.cs.illinois.edu/HockenmaierGroup/Framing_Image_Description/KCCA.html), [here](http://shannon.cs.illinois.edu/DenotationGraph/) and [here](http://mscoco.org/).
@@ -36,7 +37,13 @@ For Flickr30K:
 ```bash
 python train.py --data_path "$DATA_PATH" --data_name coco_precomp --vocab_path "$VOCAB_PATH" --logger_name runs/coco_scan/log --model_name runs/coco_scan/log --max_violation --bi_gru  --agg_func=Mean --cross_attn=i2t --lambda_softmax=4
 ```
-
+## Pretrained model
+If you don't want to train from scratch, you can download the pretrained model (Flickr30K) from [here](https://drive.google.com/file/d/1DTYFioI1BRIQZssMRpW6lQpTVHeQV3vA/view?usp=sharing).
+rsum: 460.7
+Average i2t Recall: 84.9
+Image to text: 69.4 89.9 95.4 1.0 4.1
+Average t2i Recall: 68.7
+Text to image: 47.5 75.5 83.1 2.0 12.4
 
 
 ## Reference
