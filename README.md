@@ -65,4 +65,13 @@ If you found this code useful, please cite the following paper:
   pages={13005--13014},
   year={2020}
 }
+@ARTICLE{9454290,
+  author={Wei, Jiwei and Yang, Yang and Xu, Xing and Zhu, Xiaofeng and Shen, Heng Tao},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+  title={Universal Weighting Metric Learning for Cross-Modal Retrieval}, 
+  year={2022},
+  volume={44},
+  number={10},
+  pages={6534-6545},
+  doi={10.1109/TPAMI.2021.3088863}}
 ```
